@@ -50,6 +50,7 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
+  margin-right: 20px;
 }
 
 .search button img {
