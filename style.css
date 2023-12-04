@@ -43,8 +43,8 @@ body {
   outline: 0;
   background: #ebfffc;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 40px;
   cursor: pointer;
 }
 
@@ -101,4 +101,11 @@ body {
   font-size: 14px;
   margin-top: 10px;
   display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .search button {
+    width: 60px;
+    height: 60px;
+  }
 }
