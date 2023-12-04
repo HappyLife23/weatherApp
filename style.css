@@ -46,6 +46,10 @@ body {
   width: 100px;
   height: 40px;
   cursor: pointer;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .search button img {
