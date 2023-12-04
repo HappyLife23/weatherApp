@@ -5,8 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="This page is about a weather app" />
     <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="enter city name" spellcheck="false" />
+        <button><img src="./assets/search.png" alt="" /></button>
+      </div>
+      <div class="weather">
+        
+        <img src="./assets/rain.png"  class="weather-icon" alt="rain"/>
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">New York</h2>
+        <div class="details">
+          <div class="col">
+            <img src="./assets/humidity.png" alt="" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+           
+          </div>
+          <div class="col">
+            <img src="./assets/wind.png" alt="" />
+            <div>
+              <p class="wind">15 m/s</p>
+              <p>Wind Speed</p>
+            </div>
+        </div>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
